@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DE2D83FF-3E5B-4BF5-822D-67D759C60AAA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartEquity/Models/Startup.cs">
+    <Files>
+      <File FileName="StartEquity/appsettings.json" />
+      <File FileName="StartEquity/Program.cs" />
+      <File FileName="StartEquity/Startup.cs" />
+      <File FileName="StartEquity/Models/Startup.cs" Line="9" Column="19" />
+      <File FileName="StartEquity/Models/Investor.cs" Line="15" Column="58" />
+      <File FileName="StartEquity/Models/Investment.cs" Line="6" Column="56" />
+      <File FileName="StartEquity/Models/Category.cs" Line="5" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StartEquity" expanded="True">
+            <Node name="StartEquity" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.StartEquity FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
