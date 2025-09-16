@@ -1,18 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Cryptography.Xml;
 
 namespace StartEquity.Models
 {
-	public class Investor
-	{
-        public int InvestorId { get; set; }
-        public string FullName { get; set; }
-        public string Email { get; set; }
+    public class Investor
+    {
+        public string Id { get; set; }
+        [Required] public string FullName { get; set; }
+        [Required, EmailAddress] public string Email { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Balance { get; set; } = 10000m;
 
-        public decimal Balance { get; set; } = 10000; // dummy money
-
-        // navigation
-        public List<Investment> Investments { get; set; }
+        public List<Investment> Investments { get; set; } = new List<Investment>();
+        public List<Transfer> TransfersSent { get; set; } = new List<Transfer>();
+        public List<Transfer> TransfersReceived { get; set; } = new List<Transfer>();
     }
+
 }
 
